@@ -52,13 +52,6 @@ Generates `data_usage.csv` with two columns:
 
 ---
 
-## Notes
-
-- The script anchors to the **17th** as the billing cycle start date. If the "Last Updated" timestamp on the page falls before the 17th, it automatically rolls back to the previous month's 17th.
-- The pixel-to-GB ratio is derived from the page's own **Total Data Usage** figure, so the sum of all daily values will match exactly what Starlink reports.
-
----
-
 ## Dependencies
 
 ```
